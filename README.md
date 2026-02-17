@@ -61,3 +61,10 @@ The **Base Model** struggled significantly with the "assistant" format. Because 
 * **Full Fine-Tuning:** Produced the most stable results. The outputs were concise, free of repetitive suffixes, and the logic was generally more robust across all 5 samples.
 
 ---
+
+## Acknowledgments & Licensing
+- **Base Model:** This project is improved using [Qwen2.5-Coder-0.5B](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B) by Alibaba Cloud.
+- **Dataset:** Fine-tuned on the [newfacade/LeetCodeDataset](https://huggingface.co/datasets/newfacade/LeetCodeDataset).
+- **License:** The original code and fine-tuning scripts in this repository are licensed under the **MIT License**. The model weights are subject to the [Qwen License Agreement](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B/blob/main/LICENSE).
+
+---
